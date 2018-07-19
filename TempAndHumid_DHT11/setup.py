@@ -11,7 +11,7 @@ config = {
     , 'author_email': 'jatlast@hotmail.com'
     , 'version': '0.1'
     , 'install_requires': ['nose']
-    , 'packages': ['NAME']
+    , 'packages': ['DHT11']
     , 'scripts': []
     , 'name': 'sensors/DHTEleven'
 }
