@@ -4,16 +4,16 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project'
+    'description': 'DHT11 (DHT Eleven) Temperature & Humidity Sensor'
     , 'author': 'Jason Baumbach'
-    , 'url': 'http://???'
-    , 'download_url': 'http://???'
+    , 'url': 'http://https://github.com/jatlast/sensors/tree/master/TempAndHumid_DHT11/DHTEleven'
+    , 'download_url': 'https://github.com/jatlast/sensors/tree/master/TempAndHumid_DHT11/DHTEleven'
     , 'author_email': 'jatlast@hotmail.com'
     , 'version': '0.1'
     , 'install_requires': ['nose']
     , 'packages': ['NAME']
     , 'scripts': []
-    , 'name': 'projectname'
+    , 'name': 'sensors/DHTEleven'
 }
 
 setup(**config)
